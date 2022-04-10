@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+body{
+	background-image: url(backimg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	width: 100;
+	height: 100vh;
+	background-image: linear-gradient(to left, #fff 80%, #c3f5ff 20%);
+}
+.navsection{
+	width: 100%
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: yellow;
+	background-image: linear-gradient(to top, #fff 80%, #c3f5ff 40%);
+}
+
+.logo
+{
+	width: 40%;
+	color: #fff;
+	background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+.logo h1{
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	animation: aagepiche 2s linear infinite;
+}
+
+@keyframes aagepiche{
+	from{
+		padding-left: 40px;
+		padding-right: 40px;
+
+	}
+}
+
+nav{
+	width: 60%;
+	background-color: yellow;
+	justify-content: space-around;
+	display: flex;
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 900;
+	font-size: 17px;
+	position: relative;;
+}
+
+nav a:first-child,last-child{
+	color: #4458dc
+}
+
+nav a:before{
+	content: "";
+	position: absolute;
+	top: 110;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	border-bottom: 2px solid #4458dc;
+	transition: all 0.4s linear;
+
+}
+
+nav a: hover:before{
+	width: 100px;
+
+}
+
+
+main{
+hight: 80vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.rightside{
+	border-radius: 60% 40% 63% 37% / 95% 2% 98% 5%  ;
+	background-color: #e8fbff;
+
+}
+
+.rightside img{
+	margin-top: 100px;
+	max-width: 400px;
+	
+	height:500px;
+	border-radius: 500px;
+}
+.leftside{
+	color: black;
+	text-transform: uppercase;
+
+}
+.leftside h3{
+	font-size: 40px;
+	margin-bottom: 20px;
+	
+
+}
+
+ 
+
+.leftside h1{
+	margin-top: 40px;
+	font-size: 70px;
+	margin-bottom: 25px;
+
+}
+.leftside h2{
+	
+	margin-bottom: 35px;
+	font-weight:F500;
+	word-spacing: 4px;
+
+}
+.leftside .btn1, 
+.btn2{
+	 border-style: line;
+	 border-radius: 5px;
+	 padding: 5px;
+	 border-width: 2px;
+	 border-color: blue;
+	}
+.leftside{
+	border-radius: 60% 40% 63% 37% / 95% 2% 98% 5%  ;
+	background-color: #e8fbff;
+}
+
